@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:controller="sample.ControllerSecWind" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+          style="-fx-background-color: blue" >
+
+
+    <Button fx:id="start"  onAction="#buttonStart" mnemonicParsing="false"
+            prefHeight="25.0" prefWidth="126.0" text="Start" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Button fx:id="wyniki"  onAction="#buttonWyniki" prefHeight="25.0" prefWidth="126.0" text="Wyniki"
+            GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Button fx:id="buttonWyjscie" onAction="#buttonExit" mnemonicParsing="false"
+            prefHeight="25.0" prefWidth="126.0" text="Wyjście" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+
+</GridPane>
